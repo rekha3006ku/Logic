@@ -1,3 +1,4 @@
+// accept number and check wheather it ia divisible by 5 or not
 #include<stdio.h>
 #include<stdbool.h>
 
@@ -32,4 +33,9 @@ int main()
     }
     return 0;
 
+
 }
+//////////////////////////////////////////////////////////////////
+// Input: 20          output: Divisible by 5
+// Input: 21          output: Not Divisible by 5
+//////////////////////////////////////////////////////////////////
