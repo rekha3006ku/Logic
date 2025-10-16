@@ -9,7 +9,7 @@
 ///////////////////////////////////////////////////////////////////////////////
 //
 //  Function Name : CheckEvenOdd
-//  Description : it os used to check even or odd
+//  Description :   it is used to check even or odd
 //  Input :         Integer
 //  output :        bool
 //  Author :        Rekha Shankarlal Kumawat
@@ -63,3 +63,4 @@ int main()
 //  Input:11                Output:11 is Odd Number
 //
 ///////////////////////////////////////////////////////////////////////////////
+
