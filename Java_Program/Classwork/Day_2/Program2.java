@@ -18,9 +18,9 @@ import java.util.Scanner;
 ///////////////////////////////////////////////////////////////////////////////
 //
 //  Function Name : Display
-//  Description : it to Displat the String Jay Ganesh
+//  Description :   it is to  Display the String Jay Ganesh
 //  Input :         Integer
-//  output :        void
+//  output :        string
 //  Author :        Rekha Shankarlal Kumawat
 //  Date :          10/10/2025
 //
@@ -72,4 +72,5 @@ class Program2
 //                                  Jay Ganesh
 //                                  Jay Ganesh
 //
+
 ///////////////////////////////////////////////////////////////////////////////
