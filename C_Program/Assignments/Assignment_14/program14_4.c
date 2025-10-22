@@ -8,7 +8,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function Name : CountTwo
+//  Function Name : CountFour
 //  Description :   return frequency of 4 in digit
 //  Input :         Integer
 //  output :        Integer
@@ -67,4 +67,5 @@ int main()
 //  Input1:1018                  Output:total number of four :0                                                            
 //  Input1:9440                  Output:total number of four :2
 //                                                         
+
 ///////////////////////////////////////////////////////////////////////////////
