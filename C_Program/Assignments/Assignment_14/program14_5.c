@@ -8,7 +8,7 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function Name : CountTwo
+//  Function Name : Count
 //  Description :   return frequency of number less than 6 in digit
 //  Input :         Integer
 //  output :        Integer
@@ -17,7 +17,7 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 
-int CountFour(int iNo)
+int Count(int iNo)
 {
     int iDigit = 0;
     int iCount = 0;
@@ -55,7 +55,7 @@ int main()
     printf("Enter the number: ");
     scanf("%d",&iValue);
 
-    iRet = CountFour(iValue);
+    iRet = Count(iValue);
     printf("total number of digit less than 6 : %d", iRet);
     
     return 0 ;
@@ -67,4 +67,5 @@ int main()
 //  Input1:1018                  Output:total number of digit less than 6 :3                                                            
 //  Input1:9890                  Output:total number of digit less than 6 :1
 //                                                         
+
 ///////////////////////////////////////////////////////////////////////////////
