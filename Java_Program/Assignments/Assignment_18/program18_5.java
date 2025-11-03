@@ -2,7 +2,7 @@
 //
 //  class Name :    Logic
 //  function name:  CheckSign
-//  Description :   to print all Odd number upto n
+//  Description :   to check number is positive , negative ,zero
 //  Input :         Integer
 //  output :        Void
 //  Author :        Rekha Shankarlal Kumawat
@@ -54,3 +54,4 @@ class program18_5
 //  
 //
 //////////////////////////////////////////////////////////////////////////////                                                      
+
