@@ -8,8 +8,8 @@
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function Name : CheckPrime
-//  Description :   it is used to check prime number
+//  Function Name : CountDigits
+//  Description :   it is used to count number of Digits
 //  Input :         Integer
 //  output :        Integer
 //  Author :        Rekha Shankarlal Kumawat
@@ -57,3 +57,4 @@ int main()
 //  Input:1123232                Output:Number of Digits are :7
 //
 ////////////////////////////////////////////////////////////////////
+
