@@ -14,7 +14,7 @@ import java.util.*;
 //  Input :         Integer
 //  output :        Long
 //  Author :        Rekha Shankarlal Kumawat
-//  Date :          06/10/2025
+//  Date :          06/11/2025
 //
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -79,3 +79,4 @@ class program89
 //  Input:3                  Output:factorial is:6
 //
 ///////////////////////////////////////////////////////////////////////////////
+
