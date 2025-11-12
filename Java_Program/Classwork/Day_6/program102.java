@@ -14,7 +14,7 @@ import java.util.*;
 //  Input :         Integer ,Integer ,Integer
 //  output :        void , Integer,Integer
 //  Author :        Rekha Shankarlal Kumawat
-//  Date :          07/10/2025
+//  Date :          07/11/2025
 //
 //////////////////////////////////////////////////////////////////////////////////////////////////
 
@@ -107,3 +107,4 @@ class program102
 //  Input1:4     Input2:10 ,20,30      Output1:10 ,20,30 ,40    output2 :3    Output3:100
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////
+
