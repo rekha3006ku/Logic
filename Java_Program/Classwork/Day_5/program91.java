@@ -14,7 +14,7 @@ import java.util.*;
 //  Input :         Integer
 //  output :        Inteder
 //  Author :        Rekha Shankarlal Kumawat
-//  Date :          06/10/2025
+//  Date :          06/11/2025
 //
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -71,3 +71,4 @@ class program91
 //  Input:1234                  Output:Sum of Digits :10 
 //  Input:3234                  Output:Sum of Digits :12
 ///////////////////////////////////////////////////////////////////////////////
+
