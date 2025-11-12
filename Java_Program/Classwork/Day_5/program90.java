@@ -10,11 +10,11 @@ import java.util.*;
 //
 //  Class Name :    Digit
 //  Function Name : DiaplayDigit
-//  Description :   it is used to Display numbers of a didit 
+//  Description :   it is used to Display numbers of a digit
 //  Input :         Integer
 //  output :        void
 //  Author :        Rekha Shankarlal Kumawat
-//  Date :          06/10/2025
+//  Date :          06/11/2025
 //
 ///////////////////////////////////////////////////////////////////////////////
 
@@ -68,3 +68,4 @@ class program90
 //  Input:3234                  Output:4 3 2 3
 //
 ///////////////////////////////////////////////////////////////////////////////
+
