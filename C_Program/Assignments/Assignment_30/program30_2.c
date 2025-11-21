@@ -27,12 +27,12 @@ void Display(int iRow , int iCol)
             printf("Row number and column number should be same");
             return;
         }
-    for(iCnt1 = 1 ; iCnt1 <= iRow ; iCnt1++)
+    for(iCnt1 = iRow ; iCnt1 >= 1 ; iCnt1--)
     {
         
         for(iCnt2 = 1; iCnt2 <= iCol ; iCnt2++)
         {
-            if(iCnt1 == 1 || iCnt2 == 1  || iCnt1  == (iCnt2 -1) )
+            if(iCnt1 >= iCnt2 )
             {
                 printf("*\t");
             }
@@ -69,13 +69,13 @@ int main()
 
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //
-//  Input1:4    Input2:4   Output:*       #       #       #
-//                                *       *       #       #
+//  Input1:4    Input2:4   Output:*       *       *       *
 //                                *       *       *       #
-//                                *       *       *       *
+//                                *       *       #       #
+//                                *       #       #       #
 //
-//  Input1:3    Input2:3   Output:*       #       #
+//  Input1:3    Input2:3   Output:*       *       *
 //                                *       *       #
-//                                *       *       *
+//                                *       #       #
 //
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
