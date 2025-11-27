@@ -16,6 +16,7 @@ class Logic
     {
         int iDigit = 0 ;
         int iRev = 0;
+        int iTemp = iNo ;
         while(iNo != 0)
         {
             iDigit = iNo % 10;
@@ -24,7 +25,7 @@ class Logic
             
         }
 
-        if(iNo == iRev )
+        if(iTemp == iRev )
         {
             return true;
            
@@ -71,3 +72,4 @@ class program17_2
 //  
 //
 //////////////////////////////////////////////////////////////////////////////                                                      
+
