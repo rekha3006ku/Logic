@@ -1,3 +1,6 @@
+// input: HELLO world
+// output: hello WORLD
+
 #include<stdio.h>
 
 void strtoggleX(char str[])
