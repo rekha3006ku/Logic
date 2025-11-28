@@ -1,5 +1,22 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//required  package
+//
+///////////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
+
+///////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : CountOdd
+//  Description :   it is used to Count odd number of elements of aaray
+//  Input :         Integer
+//  output :        Integer
+//  Author :        Rekha Shankarlal Kumawat
+//  Date :          13/11/2025
+//
+///////////////////////////////////////////////////////////////////////////////
 
 int CountOdd(int Arr[], int iSize)
 {
@@ -7,13 +24,18 @@ int CountOdd(int Arr[], int iSize)
 
     for(iCnt = 0 ; iCnt < iSize ; iCnt++)
     {
-        if(Arr[iCnt]%2 == 1)
+        if(Arr[iCnt]%2 != 0)
         {
             iCount++;
         }
     }
     return iCount;
 }
+///////////////////////////////////////////////////////////////////////////////
+//
+//Entry point function
+//
+///////////////////////////////////////////////////////////////////////////////
 
 int main()
 {
@@ -39,10 +61,18 @@ int main()
         scanf("%d", &ptr[iCnt]);
     }
 
+    Display(ptr , iLength);
+
     iRet = CountOdd(ptr , iLength);
-    printf("Odd Count :%d\n ", iRet );
+    printf("Even Count :%d\n ", iRet );
 
     free(ptr);
 
     return 0 ;
 }
+///////////////////////////////////////////////////////////////////////////////
+//
+//  Input:1 2 3 4                  Output:1 
+//  Input:1 6 2 8                  Output:1
+//
+////////////////////////////////////////////////////////////////////
