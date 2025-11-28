@@ -1,3 +1,5 @@
+// input: HELLO WORLD
+// output: hello world
 #include<stdio.h>
 
 void strlwrX(char str[])
