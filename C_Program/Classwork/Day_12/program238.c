@@ -1,3 +1,6 @@
+// input: HELLO world
+// output: HELLO WORLD
+
 #include<stdio.h>
 
 void struprX(char str[])
