@@ -1,3 +1,6 @@
+// input: HeLLo WorLD
+// output : H_LL_ W__LD
+
 #include<stdio.h>
 
 void Change(char str[])
