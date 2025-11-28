@@ -1,15 +1,22 @@
+////////////////////////////////////////////////////////////////////////////////
+//
+//required  package
+//
+///////////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 
-void Display(int Arr[] , int iSize)
-{
-    int iCnt = 0;
-
-    for(iCnt = 0 ; iCnt < iSize ; iCnt++)
-    {
-        printf("%d\t", Arr[iCnt]);
-    }
-}
+///////////////////////////////////////////////////////////////////////////////
+//
+//  Function Name : Average
+//  Description :   it is used to return Average of elements of aaray
+//  Input :         Integer
+//  output :        Float
+//  Author :        Rekha Shankarlal Kumawat
+//  Date :          14/11/2025
+//
+///////////////////////////////////////////////////////////////////////////////
 
 float Average(int Arr[], int iSize)
 {
@@ -21,6 +28,12 @@ float Average(int Arr[], int iSize)
     }
     return ((float)fAvg/(float)iSize);
 }
+///////////////////////////////////////////////////////////////////////////////
+//
+//Entry point function
+//
+///////////////////////////////////////////////////////////////////////////////
+
 
 int main()
 {
@@ -34,7 +47,7 @@ int main()
 
     ptr = (int*)malloc(iLength * sizeof(int));
 
-    if( NULL == ptr )           // industial way of coding              
+    if( NULL == ptr )                       
     {
         printf("unable to allocate memory\n");
         return -1 ;
@@ -57,3 +70,9 @@ int main()
 
     return 0 ;
 }
+///////////////////////////////////////////////////////////////////////////////
+//
+//  Input:1 2 3 4 5                  Output:3 
+//  Input:4 6 2 8                    Output:5
+//
+////////////////////////////////////////////////////////////////////
