@@ -4,13 +4,14 @@
 //required  package
 //
 ///////////////////////////////////////////////////////////////////////////////
+
 #include<stdio.h>
 #include<stdlib.h>
 #include<stdbool.h>
 
 ///////////////////////////////////////////////////////////////////////////////
 //
-//  Function Name : FrequencyCalculate
+//  Function Name : LinearSearch
 //  Description :   it is used to search  elements in aaray
 //  Input :         Integer
 //  output :        Boolean
@@ -97,3 +98,4 @@ int main()
 //  Input:1 1 6 1         input:1          Output:1 is present in data
 //
 //////////////////////////////////////////////////////////////////////////////
+
